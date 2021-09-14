@@ -23,9 +23,6 @@ public class App
         int third_answer = first_number * second_number;
         int fourth_answer = first_number / second_number;
 
-        System.out.println(first_number + " + " + second_number + " = " + first_answer);
-        System.out.println(first_number + " - " + second_number + " = " + second_answer);
-        System.out.println(first_number + " * " + second_number + " = " + third_answer);
-        System.out.println(first_number + " / " + second_number + " = " + fourth_answer);
+        System.out.println(first_number + " + " + second_number + " = " + first_answer + "\n" + first_number + " - " + second_number + " = " + second_answer + "\n" + first_number + " * " + second_number + " = " + third_answer + "\n" + first_number + " / " + second_number + " = " + fourth_answer);
     }
 }
